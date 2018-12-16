@@ -166,23 +166,27 @@ html body {
     position: absolute;
     left: 150px;
     font-weight: bold;
-    top: 900px;
+    top: 850px;
     width: 200px;
     text-align: center;
 }
 .main .middle .m-top .word .word-body {
     position: absolute;
     font-size: 16px;
-    width: 400px;
-    top: 970px;
+    width: 260px;
+    height: 160px;
+    top: 900px;
     left: 150px;
     background-color: #ffffff;
     opacity: 0.5;
     border: 1px solid ;
-    margin-top: 30px;
-    padding: 20px;
+    margin-top: 40px;
+    padding: 30px 30px 70px 30px;
 }
-.main .middle .m-top .word .word-body-submit .explore-sub{
+.explore-sub{
+    position:absolute;
+    top: 1080px;
+    left: 180px;
     width: 100px;
     height: 40px;
     text-align: center;
@@ -190,4 +194,57 @@ html body {
     background: #000000;
     margin-top: 30px;
     font-size: 20px;
+}
+.explore-sub:hover {
+    border: 1px solid #000000 !important;
+    background-color: transparent !important;
+    color: #000000 !important;
+}
+.students {
+    position: absolute;
+    top: 850px;
+    left: 1100px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #07cbc9;
+    height: 150px;
+}
+.sum {
+    margin-top: 22px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.s-solid {
+    border-bottom: 2px solid #07cbc9;
+    width: 30px;
+    margin-left: 88px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.s-name {
+    font-weight: bold;
+}
+.faculty {
+    position: absolute;
+    top: 1050px;
+    left: 1100px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #07cbc9;
+    height: 150px;
+}
+.f-sum {
+    margin-top: 22px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.f-solid {
+    border-bottom: 2px solid #07cbc9;
+    width: 30px;
+    margin-left: 88px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.f-name {
+    font-weight: bold;
 }
